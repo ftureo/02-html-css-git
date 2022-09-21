@@ -54,14 +54,15 @@ body {
 }
 
 nav {
-    background-color: rgb(221, 165, 144);
-    width: 60%;
+    background-color: rgb(250, 86, 141);
+    width: 100%;
     padding: 30px 50px;
+    position: relative;
 }
 
 nav > ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 nav > ul > li {
     background-color: rgb(196, 124, 99);
@@ -81,4 +82,20 @@ nav > ul > li:hover {
 a {
     text-decoration: none;
     color: black;
+}
+
+.logo {
+    background-color: yellow;
+    width: 10%;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.logo-whatsapp {
+    width: 5%;
+    background-color: greenyellow;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
 }
